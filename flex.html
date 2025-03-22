@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flex Box</title>
+        <style>
+            .item {
+                height: 250px;
+                width: 250px;
+                background-size: cover;  
+                background-position: center;  
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                color: white; 
+                font-size: 20px; 
+            }
+
+            body {
+                background-color :mediumvioletred;
+            }
+
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+                height: 100vh;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div id="item1" class="item" style="background-image: url('dhoni.jpg');">item1</div>
+            <div id="item2" class="item" style="background-image: url('dhanush.jpg');">item2</div>
+            <div id="item3" class="item" style="background-image: url('kavin.jpg');">item3</div>
+            <div id="item4" class="item" style="background-image: url('allu\ arjun.jpg');">item4</div>
+            <div id="item5" class="item" style="background-image: url('vikram.jpg');">item5</div>
+            <div id="item6" class="item" style="background-image: url('kavin.jpg');">item6</div>
+            <div id="item7" class="item" style="background-image: url('dhanush.jpg');">item7</div>
+            <div id="item8" class="item" style="background-image: url('dhoni.jpg');">item8</div>
+            <div id="item9" class="item" style="background-image: url('kavin.jpg');">item9</div>
+            <div id="item10" class="item" style="background-image: url('allu\ arjun.jpg');">item10</div>
+            <div id="item11" class="item" style="background-image: url('dhruv.jpg');">item11</div>
+            <div id="item12" class="item" style="background-image: url('kavin.jpg');">item12</div>
+            <div id="item13" class="item" style="background-image: url('dhanush.jpg');">item13</div>
+            <div id="item14" class="item" style="background-image: url('dhruv.jpg');">item14</div>
+            <div id="item15" class="item" style="background-image: url('vikram.jpg');">item15</div>
+        </div>
+    </body>
+</html>
